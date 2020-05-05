@@ -11,8 +11,7 @@ void main() => runApp(
           backgroundColor: Colors.blueGrey,
           body: Center(
             child: Image(
-              image: NetworkImage(
-                  "https://postmediacanadadotcom.files.wordpress.com/2019/06/nathan-dumlao-426648-unsplash.jpg"),
+              image: AssetImage('images/diamond.png'),
             ),
           ),
         ),
